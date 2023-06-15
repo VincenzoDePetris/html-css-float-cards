@@ -1,0 +1,40 @@
+.maindiv {
+  width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: fuchsia;
+}
+
+.lorem {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+}
+
+.debug {
+  height: 100px;
+  width: 400px;
+  background-color: black;
+  border: solid black;
+  width: calc("100% / 3");
+  color: white;
+}
+
+.floatleft {
+  float: left;
+  margin: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
