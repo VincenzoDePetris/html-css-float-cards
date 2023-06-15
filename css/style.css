@@ -1,40 +1,41 @@
-.maindiv {
-  width: 1200px;
+body {
+  width: 1100px;
   margin: auto;
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
-  text-align: center;
   color: fuchsia;
-}
-
-.lorem {
-  text-align: center;
-}
-
-h2 {
-  margin: 0;
-}
-
-img {
-}
-
-.debug {
-  height: 100px;
-  width: 400px;
-  background-color: black;
-  border: solid black;
-  width: calc("100% / 3");
-  color: white;
-}
-
-.floatleft {
-  float: left;
-  margin: 20px;
 }
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.floatleft {
+  float: left;
+}
+
+.card {
+  height: 100px;
+  width: calc(100% / 3 - 30px);
+  background-color: black;
+  color: white;
+  margin: 15px;
+  line-height: 10px;
+}
+
+img {
+  max-height: 100%;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
 }
